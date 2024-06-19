@@ -1,0 +1,29 @@
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików konfiguracyjnych edytora
+.vscode/
+.idea/
+
+# Ignorowanie środowiska wirtualnego
+venv/
+env/
+ENV/
+.venv/
+.pyvenv/
+*.pyc
+__pycache__/
+
+# Ignorowanie plików wygenerowanych przez Jupyter
+.ipynb_checkpoints/
+
+# Ignorowanie danych wyjściowych
+output/
+results/
+*.log
+
+# Ignorowanie plików konfiguracyjnych i prywatnych
+config.yaml
+*.env
+credentials.json
